@@ -4,7 +4,7 @@
 Helen Kreitzer
 
 ## Project Overview
-This project analyzes Airbnb listing data to compare the Columbus, Ohio and New York City markets. The goal is to [briefly describe what decisions your analysis could support].
+This project analyzes Airbnb listing data to compare the Columbus, Ohio and New York City markets. The goal is to help potential hosts decide when and where to list and how many listings to have, as well as if it's worth it to be a super host.
 
 ## Research Questions
 
@@ -18,11 +18,11 @@ This project analyzes Airbnb listing data to compare the Columbus, Ohio and New 
 
 | # | Question | Data Needed | Source | Data Type |
 |:-:|:---------|:------------|:-------|:----------|
-| 1 | [Question 1] | [neighborhood, availability] | [listings.csv.gz] | [Structured] |
-| 2 | [Question 2] | [availability, date] | [calendar.csv.gz] | [Structured] |
-| 3 | [Question 3] | [room type] | [listings.csv] | [Structured] |
-| 4 | [Question 4] | [host status, price, availability] | [listings.csv.gz, calendar.csv.gz] | [Structured] |
-| 5 | [Question 5] | [host_id, listing data] | [listings.csv (for both cities)] | [Structured] |
+| 1 | What NYC neighborhood has the most activity (highest number of avg nights booked)? | neighborhood, availability | listings.csv.gz | Structured |
+| 2 | What month has the highest number of booked listings (in NYC)? | availability, date | calendar.csv.gz | Structured |
+| 3 | What's the most common room type in listings from Columbus? | room type | listings.csv | Structured |
+| 4 | What's the average revenue difference between a host and a super host (in NYC)? | host status, price, availability | listings.csv.gz, calendar.csv.gz | Structured |
+| 5 | What's the average number of properties per host in NYC? In Columbus? | host_id, listing data | listings.csv (for both cities) | Structured |
 
 ## Data Overview
 - **Columbus, Ohio:** [2,877] listings (as of Sept 26, 2025)
